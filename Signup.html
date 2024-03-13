@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="./style.css" />
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+    height: 80px;
+    background: transparent;
+    transition: box-shadow 150ms ease-in-out;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;  
+  }
+  header:hover {
+    box-shadow: 0px 0px 15px 1px black;
+  }
+        form {
+  max-width: 600px;
+  margin: 10% auto;
+  background: #faf7f7d4;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        .form-label {
+            font-weight: bold;
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .form-control {
+            width: 100%;
+            padding: 8px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .button-group {
+            text-align: center;
+            margin-top: 15px;
+        }
+
+        button {
+            background-color: #526ff1;
+            color: #fff;
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Background & animion & navbar & title -->
+<div class="container-fluid">
+    <!-- Background animtion-->
+        <div class="background">
+           <div class="cube"></div>
+           <div class="cube"></div>
+           <div class="cube"></div>
+           <div class="cube"></div>
+          <div class="cube"></div>
+        </div>
+    <!-- header -->
+       <header>
+    <!-- navbar -->
+         <nav>
+          
+            <ul>
+               <li><a href="./index1.html">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="./signup.html">Signup</a></li>
+                <li><a href="./login.html">Login</a></li>
+                <li><a href="#">Contact</a></li>
+             </ul>
+           </nav>
+    <!-- logo -->
+    <div class="logo">TechTicK</div>
+                 
+   <body>
+
+    <form action="busdetails.html" method="post">
+
+        <div class="form-group" style="color:black;">
+            <label for="name" class="form-label">Name</label>
+            <input class="form-control" type="text" id="name" name="name" placeholder="Enter your name" required>
+        </div>
+
+        <div class="form-group" style="color:black;">
+            <label for="email" class="form-label">Email</label>
+            <input class="form-control" type="email" id="email" name="email" placeholder="Enter your email" required>
+        </div>
+
+        <div class="form-group" style="color:black;">
+            <label for="password" class="form-label">Password</label>
+            <input class="form-control" type="password" id="password" name="password" placeholder="Enter your password" required>
+        </div>
+
+        <div class="form-group" style="color:black;">
+            <label for="confirmPassword" class="form-label">Confirm Password</label>
+            <input class="form-control" type="password" id="confirmPassword" name="confirmPassword" placeholder="Confirm your password" required>
+        </div>
+
+        <div class="button-group">
+            <a href="./index1.html"> <button type="button" class="btn btn-primary">Submit</button></a>
+        </div>
+    </div>
+    </form>
+
+</body>
+</html>
