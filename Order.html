@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bus Order Details</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+       
+        section {
+            max-height:fit-content ;
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        dl {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 16px;
+            margin-bottom: 16px;
+        }
+
+        dt, dd {
+            padding: 8px;
+            border-radius: 4px;
+            background-color: #f0f0f0;
+        }
+
+        button {
+            background-color: hsl(189, 52%, 43%);
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <center>
+        <h1>Bus Order Details</h1>
+    </center>
+    </header>
+
+    <section>
+        <h2>Passenger Details</h2>
+        <dl>
+            <dt>Name:</dt>
+            <dd>mithra</dd>
+
+            <dt>Email:</dt>
+            <dd>mithra@gmail.com</dd>
+
+            <dt>Destination:</dt>
+            <dd>Chennai</dd>
+
+            <dt>Date of Travel:</dt>
+            <dd>2023-12-12</dd>
+        </dl>
+
+        <h2>Payment Information</h2>
+        <dl>
+            <dt>Total Amount:</dt>
+            <dd>$950.00</dd>
+
+            <dt>Payment Method:</dt>
+            <dd>Credit Card</dd>
+
+            <dt>Transaction ID:</dt>
+            <dd>ABC123XYZ</dd>
+        </dl>
+
+        <button onclick="printReceipt()">Print Receipt</button>
+    </section>
+
+    <script>
+        function printReceipt() {
+            // You can add custom printing logic here
+            window.print();
+        }
+    </script>
+
+</body>
+</html>
