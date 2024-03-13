@@ -1,0 +1,86 @@
+            <div class="bus-info">
+                <span>Departure Time:</span>
+                <span>8:00 PM</span>
+            </div>
+    
+            <div class="bus-info">
+                <span>Departure Point:</span>
+                <span>Bangalore</span>
+            </div>
+    
+            <div class="bus-info">
+                <span>Destination:</span>
+                <span>palakkad</span>
+            </div>
+    
+            <div class="bus-info">
+                <span>Available Seats:</span>
+                <span>32</span>
+            </div>
+            <a href="./prktravels.html"> <button type="button" class="book-button">Book Now</button></a>
+        </div>
+        <div class="bus-details">
+            <h2>ARS TRANSPORT</h2><br>
+    
+            <div class="bus-info">
+                <span>Bus Number:</span>
+                <span>TN42C3123</span>
+            </div>
+    
+            <div class="bus-info">
+                <span>Departure Time:</span>
+                <span>10.00 PM</span>
+            </div>
+    
+            <div class="bus-info">
+                <span>Departure Point:</span>
+                <span>Covai</span>
+            </div>
+    
+            <div class="bus-info">
+                <span>Destination:</span>
+                <span>Pollachi</span>
+            </div>
+    
+            <div class="bus-info">
+                <span>Available Seats:</span>
+                <span>32</span>
+            </div>
+            <a href="./arstravels.html"> <button type="button" class="book-button">Book Now</button></a>
+        </div>
+        <div class="bus-details">
+            <h2>CHEKRA TRANSPORT</h2><br>
+    
+            <div class="bus-info">
+                <span>Bus Number:</span>
+                <span>TN42V4357</span>
+            </div>
+    
+            <div class="bus-info">
+                <span>Departure Time:</span>
+                <span>10:00 PM</span>
+            </div>
+    
+            <div class="bus-info">
+                <span>Departure Point:</span>
+                <span>Chennai</span>
+            </div>
+    
+            <div class="bus-info">
+                <span>Destination:</span>
+                <span>Bangalore</span>
+            </div>
+    
+            <div class="bus-info">
+                <span>Available Seats:</span>
+                <span>32</span>
+            </div>
+            <a href="./chekratravels.html"> <button type="button" class="book-button">Book Now</button></a>
+        </div>
+    </div>
+    <center>
+    <a href="./busfrontpage.html"> <button type="button" class="book-button">BACK</button></a>
+    </center>
+</div>
+</body>
+</html>
